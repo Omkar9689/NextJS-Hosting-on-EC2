@@ -23,7 +23,8 @@ node {
             rsync -av --delete --exclude='.git' --exclude='node_modules' ./ ${appDir}
         
             cd ${appDir}
-            sudo npm run build
+            npm install
+            npm run build
             sudo fuser -k 3000/tcp || true
             npm run start
         """
