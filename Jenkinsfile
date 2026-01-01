@@ -2,7 +2,8 @@ node {
     def appDir = '/var/www/nextjs-app'
 
     stage('Clean Workspace'){
-        Workspace.deleteDir()
+        echo "Cleaning Workspace...."
+        deleteDir()
     }
 
     stage('Clone Repo'){
