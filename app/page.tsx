@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <main className="container">
       <header className="hero">
-        <h1>Omkar Barbade</h1>
+        <h1>Khushi</h1>
         <h1>Cloud & DevOps Engineering</h1>
         <p>
           Building scalable, secure, and automated cloud infrastructure using
